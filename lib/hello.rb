@@ -2,7 +2,7 @@ def hello_t(greeting)
   i = 0 
   
   while i < greeting.length 
-    yield length[i]
+    yield length[ i ]
     i = i + 1 
   end
 end
