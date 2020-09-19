@@ -1,8 +1,8 @@
-def hello_t(greeting)
+def hello_t(names)
   i = 0 
   
-  while i < greeting.length 
-    yield greeting[i]
+  while i < names.length 
+    yield names[i]
     i = i + 1 
   end
 end
